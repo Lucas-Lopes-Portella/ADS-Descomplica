@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserva de Viagem</title>
+</head>
+
+<body>
+
+    <form method="GET" action="">
+
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+
+            <label for="">Nome</label>
+            <input type="text" name="nome">
+            <br>
+            <br>
+            <label for="">Email</label>
+            <input type="email" name="email">
+
+        </fieldset>
+        <br>
+        <br>
+
+        <fieldset>
+            <legend>Serviços Desejados </legend>
+            <label><input type="checkbox" name="passagens" value="Passagem">Compra de Passagens</label>
+            <br>
+            <br>
+            <label><input type="checkbox" name="hospedagem" value="Hospedagem"> Reserva de Hospedagem</label>
+            <br>
+            <br>
+            <label><input type="checkbox" name="veiculos" value="Veiculo">Aluguel de Veículo</label>
+        </fieldset>
+        <br>
+        <br>
+        <fieldset>
+            <legend>Forma de Pagamento</legend>
+            <label>
+                <label><input type="radio" name="formaPagamento" value="Cartão de Crédito">Cartão de Crédito</label>
+                <br>
+                <br>
+                <label><input type="radio" name="formaPagamento" value="Boleto">Boleto</label>
+                <br>
+                <br>
+                <label><input type="radio" name="formaPagamento" value="PIX">PIX</label>
+            </label>
+        </fieldset>
+        <br>
+        <br>
+        <fieldset>
+            <legend>Prazo de Pagamento</legend>
+            <select name="prazoPagamento">
+                <option value="aVista" selected>À Vista</option>
+                <option value="5x">Cinco Vezes Sem Juros</option>
+                <option value="10x">Dez Vezes Com Juros</option>
+            </select>
+        </fieldset>
+        <br>
+        <br>
+        <label for="">Comentários</label>
+        <br>
+        <textarea rows="5" name="" id=""></textarea>
+        <br>
+        <br>
+        <label for="">ENVIAR</label>
+        <input type="submit" value="">
+    </form>
+
+</body>
+
+</html>
